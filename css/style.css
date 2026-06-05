@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*TEXTO*/
+h1 {
+    font-family: "Kapakana", cursive;
+}
+
+p {
+    font-family: "Public Sans", sans-serif;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif
+
+}
+
+h3 {
+    font-family: "Kulim Park", sans-serif;
+}
+
+.título-room {
+    font-family: "La Belle Aurore", cursive;
+}
+
+.menu {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+/*Elementos*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5vw;
+    padding-right: 1vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
