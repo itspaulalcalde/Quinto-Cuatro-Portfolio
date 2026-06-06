@@ -230,3 +230,22 @@ nav {
 
 
 
+/*FOOTER*/
+footer {
+    margin: 80px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+footer > .social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+footer > .social-icons a {
+    color: black;
+    font-size: 20px;
+}
