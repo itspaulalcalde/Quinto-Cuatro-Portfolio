@@ -249,3 +249,15 @@ footer > .social-icons a {
     color: black;
     font-size: 20px;
 }
+
+
+/*HOVER*/
+
+nav > ul > li > a:hover {
+    color: purple;
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: purple;
+}
