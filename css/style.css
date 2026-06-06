@@ -47,6 +47,12 @@ h3 {
     font-size: 0.9rem;
 }
 
+.menu2 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
 
 
 /*Elementos Generales*/
@@ -68,6 +74,25 @@ nav {
     padding-right: 30px;
     padding-top: 30px;
 }
+
+
+
+.menu2 {
+    background-color: black;
+    width: 100%;
+
+}
+.menu2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu2 ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
 
 /*HOME*/
 
@@ -155,7 +180,16 @@ nav {
 .portada-room {
     background-color: black;
     height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
 }
+
+.portada-room h3 {
+    padding-bottom: 600px;
+}
+
+
+
 
 .room img {
     width: 200px;
@@ -168,10 +202,31 @@ nav {
 
 
 /*ABOUT*/
+
 .about-intro {
     background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.portada-claudio {
-    background-color: black;
+.about-intro > div {
+    width: 420px;
 }
+
+.foto-paula {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.about-intro p {
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
