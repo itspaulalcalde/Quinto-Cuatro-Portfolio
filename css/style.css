@@ -184,8 +184,6 @@ nav {
     overflow-x: hidden;
 }
 
-
-
 .portada-room h3 {
     margin-top: 700px;
     margin-left: 80px;
@@ -196,7 +194,7 @@ nav {
 }
 
 
-
+/*Rooms 01 & 02*/
 .room {
     display: flex;
     justify-content: center;
@@ -253,7 +251,7 @@ nav {
 }
 
 
-
+/*Room 03*/
 
 
 
@@ -284,6 +282,35 @@ nav {
 }
 
 
+
+
+.portada-claudio {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100%;
+}
+
+.portada-claudio img {
+    width: 820px;
+}
+
+.portada-claudio p {
+    margin: 100px;
+    margin-top: 1000px;
+    font-size: 30px;
+}
+
+
+
+.gallery-one {
+    height: 100vh;
+    margin-top: 200px;
+}
+
+.gallery-one img{
+    width: 600px;
+}
 
 
 /*FOOTER*/
