@@ -55,6 +55,23 @@ h3 {
 }
 
 
+.cambio-tipo2 {
+    font-family: "La Belle Aurore", cursive;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.cambio-tipo3 {
+    font-family: "La Belle Aurore", cursive;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.about-intro p {
+    line-height: 15px;
+}
+
+
 
 /*Elementos Generales*/
 
