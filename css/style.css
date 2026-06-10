@@ -559,7 +559,7 @@ nav > ul > li > a:hover {
 } 
 
 /*Mobile*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     
     .gallery {
         height: 100vh;
